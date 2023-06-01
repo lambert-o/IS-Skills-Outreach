@@ -50,7 +50,7 @@ def main():
 def get_deck():
     deck = []
     suits = ["Hearts", "Diamonds", "Clubs", "Spades"]
-    values = list(range(1, 10)) + ["Jack", "Queen", "King", "Ace"]
+    values = list(range(2, 10)) + ["Jack", "Queen", "King", "Ace"]
     for suit in suits:
         for value in values:
             deck.append((value, suit))
